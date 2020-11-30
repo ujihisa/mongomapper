@@ -8,7 +8,7 @@ describe "ManyEmbeddedPolymorphicProxy" do
 
   it "should default reader to empty array" do
     catalog = Catalog.new
-    catalog.medias.should == []
+    catalog.medias.should == [1]
   end
 
   it "should allow adding to association like it was an array" do
